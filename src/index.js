@@ -7,7 +7,7 @@ const mdLinks = (PATH, options) => {
     if (options.validate === true) {
       resolve(functions.validatelink(pathAbsolute));
     } else {
-      resolve(functions.searchLinks(pathAbsolute));
+       resolve(functions.searchLinks(pathAbsolute));
     }
   });
    

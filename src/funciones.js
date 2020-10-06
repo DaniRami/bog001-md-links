@@ -32,7 +32,7 @@ const dirOrFilesMd = (PATH) => {
         }
       })
       .catch(() => {
-        // console.log(err)
+        console.log(err)
       });
   });
 };

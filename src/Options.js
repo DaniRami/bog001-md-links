@@ -35,7 +35,7 @@ const statsAndValidate = (data) => {
 const cli = (PATH, opcion, opcion2) => {
   if (PATH === undefined) {
     return new Promise((resolve) => {
-      resolve("Ingrese una ruta relativa o absoluta");
+      resolve("Ingrese una ruta relativa O absoluta");
     });
   }
     leading.mdLinks(PATH, { validate: false }).then((links) => {

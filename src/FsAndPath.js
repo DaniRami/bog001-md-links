@@ -7,7 +7,7 @@ const isfileOrDitectory = (PATH) => {
       if (!err) {
         resolve(stat);
       } else if(err.code === "ENOENT"  )   {
-        reject('No existe file or directory');
+        reject('No existe file o directory');
       }
     });
   });

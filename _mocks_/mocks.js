@@ -130,6 +130,6 @@ module.exports = {
     arraymd,
     md,
     statss,
-    validatee 
+    validatee
 }
 
